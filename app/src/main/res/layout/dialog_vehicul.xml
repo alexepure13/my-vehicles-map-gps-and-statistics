@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/numeVehicul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nume vehicul"
+        android:ems="12"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        >
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose vehicle type:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinner_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@null"
+        android:layout_gravity="center"
+        >
+
+    </Spinner>
+</LinearLayout>

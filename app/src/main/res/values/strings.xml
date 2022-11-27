@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Vehicles - Map, GPS and Statistics</string>
+    <string name="title_harta">Harta</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_vehicule">Vehicule</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="about_message_act">Acitex Software 2022. All rights reserved.</string>
+</resources>

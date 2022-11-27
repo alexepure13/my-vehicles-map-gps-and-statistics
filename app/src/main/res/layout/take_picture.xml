@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearTakePhoto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         >
+
+     </ImageView>
+
+
+    <TextView
+        android:id="@+id/moments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="#take moments with you"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/locationInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moments"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="10dp"
+        android:text="Photo info"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <ImageView
+        android:layout_below="@+id/locationInfo"
+        android:id="@+id/imageViewPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/photoData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewPhoto"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:text="DATA"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+
+
+
+
+
+
+</RelativeLayout>

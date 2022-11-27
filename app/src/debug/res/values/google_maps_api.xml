@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=4C:39:7E:33:80:57:F6:18:29:3B:0D:20:89:BE:6F:84:01:E3:2B:42%3Bsoftware.acitex.myvehicles_mapgpsandstatistics.ui.harta
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    software.acitex.myvehicles_mapgpsandstatistics.ui.harta
+
+    SHA-1 certificate fingerprint:
+    4C:39:7E:33:80:57:F6:18:29:3B:0D:20:89:BE:6F:84:01:E3:2B:42
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBbpccL1kb0fWQa7Gia3X-0JNAhsudZp2s</string>
+</resources>

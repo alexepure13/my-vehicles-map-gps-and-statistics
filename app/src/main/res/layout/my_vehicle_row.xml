@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/myLayoutVehicle"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/layout_rounded_margin_bg"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        >
+
+        <TextView
+            android:id="@+id/vehicleID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/vehicleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle name"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintStart_toEndOf="@+id/vehicleID"
+            app:layout_constraintTop_toTopOf="@+id/vehicleID">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/vehicleType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintStart_toEndOf="@+id/vehicleID"
+            app:layout_constraintTop_toBottomOf="@+id/vehicleName">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/vehicleKM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/vehicleID"
+            app:layout_constraintTop_toBottomOf="@+id/vehicleType"
+            android:text="km"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/vehicleLastTrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Track"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/vehicleKM"
+            app:layout_constraintTop_toTopOf="@+id/vehicleKM"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/vehicleImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
